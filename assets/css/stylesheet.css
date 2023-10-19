@@ -24,7 +24,7 @@ h1{
 }
 
 .weather-input{
-    width: 200px;
+    width: 400px;
 }
 
 .weather-input input{
@@ -69,4 +69,8 @@ h1{
 .current-weather{
     border: 1px solid black;
     background-color: #fff;
+    display: flex;
+
+    padding: 20px;
+    justify-content: space-between;
 }
