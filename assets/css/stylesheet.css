@@ -1,19 +1,11 @@
-*{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
 
-
-
-h1{
-    text-align: center;
-    background-color: blue;
-    color: white;
-    padding: 10px;
-}
-
-.display{
-    outline: black;
-    width: 25px;
-    height: 25px;
+body {
+    font-family: 'Inconsolata', sans-serif;
 }
