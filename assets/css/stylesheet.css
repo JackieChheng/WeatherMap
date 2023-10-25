@@ -67,10 +67,126 @@ h1{
 }
 
 .current-weather{
-    border: 1px solid black;
-    background-color: #fff;
+    color: #fff;
+    background-color: #2986cc;
     display: flex;
-
+    margin-bottom: 20px;
     padding: 20px;
     justify-content: space-between;
 }
+
+.weather-cards {
+    display: flex;
+    gap:20px;
+    margin-top: 20px;
+}
+
+.weather-cards .card {
+    list-style: none;
+    background-color: #b8b8b8;
+    padding:15px;
+}
+
+@media (max-width: 1400px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .weather-input {
+        width: 100%;
+    }
+
+    .weather-data .current-weather {
+        padding:20px;
+    }
+
+    .weather-cards {
+        flex-wrap: wrap;
+    }
+
+    .weather-cards .card {
+        width: calc(100% / 4 - 15px);
+    }
+}
+    @media (max-width: 1200px) {
+        h1 {
+            font-size: 1.5rem;
+        }
+    
+        .container {
+            flex-direction: column;
+        }
+    
+        .weather-input {
+            width: 100%;
+        }
+    
+        .weather-data .current-weather {
+            padding:20px;
+        }
+    
+        .weather-cards {
+            flex-wrap: wrap;
+        }
+    
+        .weather-cards .card {
+            width: calc(100% / 4 - 15px);
+        }
+        }
+    @media (max-width: 950px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .weather-input {
+        width: 100%;
+    }
+
+    .weather-data .current-weather {
+        padding:20px;
+    }
+
+    .weather-cards {
+        flex-wrap: wrap;
+    }
+
+    .weather-cards .card {
+        width: calc(100% / 4 - 15px);
+    }
+}
+@media (max-width: 750px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .weather-input {
+        width: 100%;
+    }
+
+    .weather-data .current-weather {
+        padding:20px;
+    }
+
+    .weather-cards {
+        flex-wrap: wrap;
+    }
+
+    .weather-cards .card {
+        width: calc(100% / 4 - 15px);
+    }
+}
+
+
+
