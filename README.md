@@ -138,14 +138,14 @@ Project Link: [https://github.com/JackieChheng/WeatherMap](https://github.com/Ja
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/JackieChheng/WorkDayScheduler.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/JackieChheng/OpenWeather.svg?style=for-the-badge
 [contributors-url]: https://github.com/JackieChheng/WeatherMap/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/JackieChheng/WorkDayScheduler.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/JackieChheng/OpenWeather.svg?style=for-the-badge
 [forks-url]: https://github.com/JackieChheng/WeatherMap/network/members
-[stars-shield]: https://img.shields.io/github/stars/JackieChheng/WorkDayScheduler.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/JackieChheng/OpenWeather.svg?style=for-the-badge
 [stars-url]: https://github.com/JackieChheng/WeatherMap/stargazers
-[issues-shield]: https://img.shields.io/github/issues/JackieChheng/WorkDayScheduler.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/JackieChheng/OpenWeather.svg?style=for-the-badge
 [issues-url]: https://github.com/JackieChheng/WeatherMap/issues
-[license-shield]: https://img.shields.io/github/license/JackieChheng/WorkDayScheduler.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/JackieChheng/OpenWeather.svg?style=for-the-badge
 [license-url]: https://github.com/JackieChheng/WeatherMap/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
