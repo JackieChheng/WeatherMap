@@ -51,6 +51,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 weatherCardsDiv.innerHTML = "";
 
                 fiveDaysForecast.forEach((weatherItem, index) => {
+                const temperatureFahrenheit = ((weatherItem.main.temp - 273.15) * 9/5 + 32).toFixed(2);
+                weatherItem.main.temp = temperatureFahrenheit;
+
                     const html = createWeatherCard(cityName, weatherItem, index);
                     if (index === 0) {
                         currentWeatherDiv.insertAdjacentHTML("beforeend", html);
@@ -58,6 +61,9 @@ document.addEventListener("DOMContentLoaded", function () {
                         weatherCardsDiv.insertAdjacentHTML("beforeend", html);
                     }
                 });
+
+            console.log("Unique Forecast Days:", uniqueForecastDays);
+            console.log("Five Days Forecast:", fiveDaysForecast);
 
                 const savedLocations = JSON.parse(localStorage.getItem("savedLocations")) || [];
                 savedLocations.unshift(cityName); // Add to the beginning of the array
