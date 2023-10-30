@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/stylesheet.css">
+    <link rel="stylesheet" href="styles.css">
     <title>WeatherMap</title>
 </head>
 <body>
@@ -11,37 +11,23 @@
     <div class="container">
         <div class="weather-input">
             <h3>Search for a City:</h3>
-            <input class="city-input" type="text" placeholder="ex: Utah, Syndey, Tokyo ">
+            <input class="city-input" type="text" placeholder="e.g., Utah, Sydney, Tokyo">
             <button class="search-btn">Search</button>
             <div class="separator"></div>
-            <button class="test">Salt Lake City</button>
+            <button class="saved-locations"></button>
         </div>
         <div class="weather-data">
             <div class="current-weather">
-                <div class="weather-details">
-                    <h3>Atlanta (2023-10-25)</h3>
-                    <p>Temp: 76.62 F</p>
-                    <p>Wind: 8.43 MPH</p>
-                    <p>Humidity: 44%</p>
-                </div>
+                <div class="weather-details"></div>
             </div>
-                    <div class ="days-forecast"></div>
-                    <h2>5-Day Forecast:</h2>
-                    <ul class="weather-cards">
-                    <li class="card">
-                        <h3>Atlanta</h3>
-                        <p>Temp: 76.62 F</p>
-                        <p>Wind: 8.43 MPH</p>
-                        <p>Humidity: 44%</p>
-                    </li>
-                    <li class="card">
-                        <h3>Atlanta</h3>
-                        <p>Temp: 76.62 F</p>
-                        <p>Wind: 8.43 MPH</p>
-                        <p>Humidity: 44%</p>
-                    </li>
-            </ul>
+            <div class="days-forecast">
+                <h2>5-Day Forecast:</h2>
+                <ul class="weather-cards">
+                    <li class="card"></li>
+                </ul>
+            </div>
         </div>
     </div>
-    <script src="./assets/js/script.js"></script>
+    <script src="script.js"></script>
 </body>
+</html>
